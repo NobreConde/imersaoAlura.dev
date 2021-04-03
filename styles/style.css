@@ -1,48 +1,48 @@
 body {
-    background-color: #342EA6;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cairo", sans-serif;
+  background-color: #a8d977;
 }
 
-header {
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section h1, h2 {
     text-align: center;
-    padding-top: 10px;
 }
 
 main {
-    text-align: center;
+    padding: ;
 }
 
-button {
-    font-size: 20px;
-    border-radius: 8px;
-    background-color: #3C86F9;
-    border: #3C86F9;
+#primeira-semana {
+    background-color: #6387F2;
+    border-radius: 15px;
 }
 
-button:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: white;
+#segunda-semana {
+    background-color: #6387F2;
+    border-radius: 15px;
 }
 
-button a {
-    text-decoration: none;
-    color: black;
-    font-family: monospace;
-    font-weight: 500;
+section img {
+    background-color: #0c2e59;
+    border-radius: 15px;
 }
 
-#primeiraSemana {
-    padding-top: 10px;
-    border-style: dotted;
-    font-family: monospace;
-}
-
-#segundaSemana {
-    padding-top: 10px;
-    border-style: dotted;
-    font-family: monospace;
-}
-
-div ul {
-    list-style-type: none;
+footer img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;  
 }
