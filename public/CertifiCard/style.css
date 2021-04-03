@@ -36,6 +36,10 @@ body {
     border-radius:15px;
     background-color: #bac3d6;
   }
+
+  div a {
+    text-decoration: none;
+  }
   
   div h2 {
     text-align: center;
